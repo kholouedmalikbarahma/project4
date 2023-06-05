@@ -1,0 +1,842 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar .navbar-brand{
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+color: white;
+
+}
+header {
+    background-color: #0E0C38;
+    position: relative;
+    
+}
+header .number{
+    position: absolute;
+    right: 40px;
+    top: 380px;
+    color: #cccccca4;
+    list-style: none;
+}
+@media (max-width: 991.98px) { 
+   header .number{
+  
+      right: 40px;
+      top: 250px;
+     
+  }
+}
+@media (max-width: 767.98px) { 
+   header .number{
+  
+      right: 40px;
+      top: 750px;
+     
+  }
+ }
+ @media (max-width: 575.98px) { 
+   header .number{
+  
+      right: 40px;
+      top: 450px;
+     
+  }
+ }
+header .number li{
+    border-bottom: 2px solid #cccccca4;
+    cursor: pointer;
+}
+header .number .active{
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+.navbar .collapse .navbar-nav .nav-item .nav-link{
+    font-size: 20px;
+    color: white;
+    margin-right: 40px;
+}
+.navbar .collapse .navbar-nav .nav-item .active{
+    background-color: red;
+    padding-top: 50px;
+    margin-top:-40px ;
+}
+@media (max-width: 991.98px) {    /*علشان يزبط لون الاحمر ع المقاسات من الكبير للصغير*/
+    .navbar .collapse .navbar-nav .nav-item .active{
+        background-color: red;
+        padding-top: 0;
+        margin-top:0 ;
+    }
+
+ }
+.navbar .collapse .navbar-nav .btn button{
+    padding: 10px 20px;
+    color: white;
+    border: 1px solid #fff;
+    border-radius: 50px;
+}
+
+.hero img{
+    width: 100%;
+}
+
+.hero  h2{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.hero  h1{
+   font-size: 80px;
+   line-height: 80px;
+
+    color: #fff;
+    margin-top: -25px;
+    
+}
+.hero  p{
+    color: #fff;
+    font-size: 18px;
+    
+}
+.hero  span{
+    color: red;
+}
+.hero  h4{
+    color: #fff;
+    font-size: .9rem;
+}
+.hero  ul{
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    
+ 
+}
+.hero  li{
+    margin-right: 20px;
+    color: aliceblue;
+    font-size: 1.3rem;
+}
+.hero .hero-section-image .hidden-image{
+    display: none;
+}
+.hero  button:nth-of-type(1){
+    border: none;
+    border-radius: 50px;
+    padding: 10px 35px;
+    color: #fff;
+    background-color: red;
+}
+.hero  button:nth-of-type(2){
+    border: 1px solid #fff;
+    border-radius: 50px;
+    padding: 10px 35px;
+    margin-left: 10px;
+    color: #fff;
+  
+}
+@media (max-width: 767.98px) { 
+    .hero  h1{
+    font-size: 50px;
+    line-height: 60px;
+ 
+     color: #fff;
+     margin-top: -25px;
+     
+ } 
+ .hero  button:nth-of-type(1){
+
+    padding: 5px 20px;
+  
+}
+.hero  button:nth-of-type(2){
+   
+    padding: 5px 20px;
+
+  
+}
+}
+@media (max-width: 575.98px) { 
+    .hero  h1{
+        font-size: 40px;
+        line-height: 40px;
+     
+         color: #fff;
+         margin-top: -25px;
+         
+     } 
+    .hero  button:nth-of-type(1){
+        width: 100%;
+
+        padding: 2px 10px;
+      
+    }
+    .hero  button:nth-of-type(2){
+        width: 100%;
+        margin-left: 0px;
+       
+        padding: 2px 10px;
+    
+      
+    }
+    .hero .row .col-md-6 p{
+      
+        font-size: 10px;
+        
+    }
+    .hero ul li{
+        margin-right: 15px;
+       
+        font-size: 1rem;
+    }
+
+ }
+.about{
+    background-color: #07061d;
+    color: #fff;
+}
+.about-info{
+   position: relative;
+   margin-top: 8rem;
+}
+
+ .about h2{
+    font-size: 1.6rem;
+   
+ }
+  .about hr{
+    height: 6px;
+    background-color: red;
+    color: red;
+    position: absolute;
+    width: 200px;
+    border: 0;
+    top: 10px;
+    right: -20px;
+
+ }
+ .about p{
+    color: azure;
+    font-size: 1rem;
+ }
+ .about .pp{
+    margin-bottom: 35px;
+ }.about button{
+    border: 1px solid #fff;
+    border-radius: 50px;
+    padding: 10px 35px;
+    margin-top: 4rem;
+  
+    color: #fff;
+ }
+ .about .imge{
+    margin-top: 5rem;
+   
+ }
+
+ .about  img{
+    width: 100%;
+    background-color: #0E0C38;
+    padding: 50px;
+ 
+    
+  
+ }
+ @media (max-width: 991.98px) { 
+    .about h2{
+        font-size: 1.2rem;
+       
+     }
+     .about hr{
+        height: 5px;
+        width: 150px;
+       
+    
+     }
+     .about p{
+        color: azure;
+        font-size: .7rem;
+     }
+
+.about button{
+    
+    padding: 5px 20px;
+    margin-top: 2rem;
+  
+    
+ }
+
+
+  }
+  @media (max-width: 767.98px) { 
+    .about h2{
+        font-size: 1.4rem;
+       
+     }
+     .about p{
+        color: azure;
+        font-size: 1rem;
+     }
+   
+    
+   }
+   @media (max-width: 575.98px) { 
+    .about p{
+        color: azure;
+        font-size: .8rem;
+     }
+     .about  img{
+    
+        padding: 20px;
+     
+        
+      
+     }
+      .about hr{
+        height: 5px;
+        width: 80px;
+        right: -10px;
+       
+    
+     }
+    }
+ .contect{
+    background-color: #07061d;
+    padding-top: 60px;
+   
+   
+ }
+  .contect .con-overlaye{
+   position: relative;
+   margin-bottom: 40px;
+ }
+ .con-overlaye .overlaye{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   background-color: #2d2880;
+   opacity: 0.5;
+   display: none;
+ }
+ .contect .con-overlaye:hover .overlaye{
+   display: block;
+ }
+
+
+ .contect  img{
+    width: 100%;
+    border-radius: 5px;
+   
+ }
+ .contect .conn{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+ }
+ .contect h3{
+    font-size: 3rem;
+    color: #fff;
+    
+    
+ }
+
+ .contect hr{
+    position: absolute;
+    height: 6px;
+    background-color: red;
+    width: 18%;
+    top: 15px;
+   left: 13rem;
+ }
+.contect button:nth-of-type(2){
+    border: none;
+    border-radius: 50px;
+ 
+    color: #fff;
+    background-color: red;
+}
+.contect button:nth-of-type(1){
+    border: 1px solid #fff;
+    border-radius: 50px;
+    
+    margin-right: 10px;
+    color: #fff;
+  
+}
+
+ .contect ul{
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 50px;
+ }
+ .contect ul li a{
+    text-decoration: none;
+    color: #fff  !important;
+    font-size: 1rem;
+    margin-right: 20px;
+    cursor: pointer;
+ }
+ .contect ul .active{
+    color: red;
+ }
+ @media (max-width: 991.98px) { 
+    .contect h3{
+        font-size: 2rem;
+     }
+     .contect hr{
+    
+       left: 9rem;
+     }
+
+  }
+  @media (max-width: 767.98px) { 
+    .contect h3{
+        font-size: 3rem;
+     }
+     .contect hr{
+    
+        left: 13rem;
+      }
+    
+    
+   }
+   @media (max-width: 575.98px) { 
+    .contect h3{
+        font-size: 1.5rem;
+     }
+     .contect hr{
+        top: 5px;
+    
+        left: 6rem;
+      }
+      .contect ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 50px;
+     }
+     .contect button:nth-of-type(2){
+        font-size: .5rem;
+       
+    }
+     .contect button:nth-of-type(1){
+        font-size: .5rem;
+        
+        margin-right: 3px;
+        
+      
+    }
+    .contect .conn{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+       
+     }
+     .contect ul li a{
+        text-decoration: none;
+        color: #fff;
+        font-size: .8rem;
+        margin-right: 20px;
+     }
+     .contect  img{
+        width: 60%;
+        border-radius: 50px;
+        margin-bottom: 40px;
+     }
+
+    }
+ .cap{
+    background-color: #0E0C38;
+    color: #fff;
+    text-align: center;
+    padding-top: 4rem;
+    
+ }
+ .cap .test1{
+    width: 20%;
+    margin: auto;
+    height: 5px;
+    background-color: red;
+    border: none;
+ }
+ .cap .test2{
+    background-color: #2d2880;
+    height: 2px;
+    border: none;
+    width: 100%;
+    margin-top: -10px;
+ }
+ .cap-p i{
+    font-size: 3rem;
+    color: red;
+ }
+ 
+ .cap h2{
+    font-size: 3rem;
+ }
+
+ .cap p{
+    font-size: .9rem;
+    margin-top: 5px;
+   
+ }
+ .cap .cap-p{
+    border: 2px solid #2d2880;
+ }
+ @media (max-width: 767.98px) { 
+    .cap h2{
+        font-size: 2rem;
+     }
+     .cap p{
+        font-size: .8rem;
+        margin-top: 5px;
+       
+     }
+     .cap-p i{
+        font-size: 2rem;
+       
+     }
+  }
+  @media (max-width: 575.98px) { 
+    .cap h2{
+        font-size: 1rem;
+     }
+     .cap .test1{
+        width: 30%;
+        margin: auto;
+        height: 5px;
+        background-color: red;
+        border: none;
+     }
+     .cap-p i{
+        font-size: 1rem;
+        color: red;
+     }
+   }
+   .clinet{
+      background-color: #07061d;
+      color: #fff;
+      height: 100vh;
+   }
+   .clinet .clint-h{
+      text-align: center;
+      padding-top: 4rem;
+   }
+   .clint-h h2{
+      text-transform: capitalize;
+   }
+   .clint-h hr{
+      width: 20%;
+      height: 3px;
+      background-color: red;
+      border: none;
+      margin: auto;
+      margin-bottom: 10px;
+   }
+   .clint-h p{
+      font-size: 0.8rem;
+      margin-bottom: 50px;
+   }
+   .clinet .clint-imag{
+      position: relative;
+      width: 20%;
+   }
+   .clinet .clint-imag img{
+      width: 100%;
+      border-radius: 50%;
+   }
+   .clinet .clint-imag    .image1{
+      position: absolute;
+      top: 0;
+   }
+   .clinet .clint-imag    .image2{
+      position: absolute;
+      top: 2.5rem;
+      left: 13rem;
+      width: 70%;
+   }
+   .clinet .clint-imag    .image3{
+      position: absolute;
+    left: 20rem;
+    border: 5px solid red;
+   }
+   .clinet .clint-imag    .image4{
+      position: absolute;
+     top: 8rem;
+      width: 60%;
+   }
+   .clinet .clint-imag    .image5{
+      position: absolute;
+      left: 6rem;
+      top: 12rem;
+   }
+   .clinet .clint-imag    .image6{
+      position: absolute;
+      top: 13rem;
+      left:18rem ;
+   }
+   .clinet .clint-pp p{
+      margin-top: 3rem;
+      border: 3px solid #2d2880;
+   }
+   .clinet .clint-pp h6{
+      color: #cccccca4;
+   }
+
+
+   @media (max-width: 991.98px) { 
+      .clinet .clint-imag    .image3{
+         
+       left: 15rem;
+     
+      }
+      .clinet .clint-imag    .image2{
+     
+         left: 10rem;
+       
+      }
+      .clinet .clint-imag    .image6{
+     
+         left:15rem ;
+      }
+      .clinet .clint-pp p{
+     font-size: .8rem;
+      }
+   }
+   @media (max-width: 767.98px) { 
+      .clinet{
+      display: flex;
+      flex-direction: column;
+         height: 150vh;
+      }
+      .clinet .clint-pp{
+         margin-top: 25rem;
+      }
+      .clinet .clint-imag    .image3{
+         
+         left: 20rem;
+       
+        }
+        .clinet .clint-imag    .image2{
+       
+           left: 10rem;
+         
+        }
+        .clinet .clint-imag    .image6{
+       
+           left:20rem ;
+        }
+        .clinet .clint-pp p{
+       font-size: .8rem;
+        }
+      .clinet .clint-pp p{
+         font-size: 1rem;
+          }
+      
+      
+
+    }
+    @media (max-width: 575.98px) { 
+      .clinet .clint-pp p{
+         font-size: 0.8rem;
+          }
+          .clinet .clint-imag    .image3{
+         
+            left: 12rem;
+          
+           }
+           .clinet .clint-imag    .image2{
+          
+              left: 8rem;
+            
+           }
+           .clinet .clint-imag    .image6{
+          
+              left:12rem ;
+           }
+           .clinet .clint-pp{
+            margin-top: 20rem;
+         }
+     }
+   .forme{
+    background-color: #0E0C38;
+    color: #fff;
+    text-align: center;
+   
+    padding-top: 6rem;
+   }
+   .forme-p{
+    position: relative;
+   
+   }
+   .forme-p p{
+    font-size: .8rem;
+    margin-bottom: 4rem;
+   }
+   .forme hr{
+    height: 3px;
+    background-color: red;
+    border: none;
+    width: 5%;
+    position: absolute;
+    top: -30px;
+    left: 32.5rem;
+    transform: rotate(90deg);
+  
+   }
+   .forme button {
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px 30px;
+    margin-bottom: 30px;
+    
+    
+   }
+   @media (max-width: 1199.98px) { 
+    .forme hr{
+        height: 3px;
+        background-color: red;
+        border: none;
+        width: 5%;
+        position: absolute;
+        top: -30px;
+        left: 27.5rem;
+        transform: rotate(90deg);
+      
+       }
+
+    }
+   @media (max-width: 991.98px) {
+    .forme{
+       
+        padding-top: 9rem;
+       }
+    .forme hr{
+        height: 3px;
+        background-color: red;
+        border: none;
+        width: 8%;
+        position: absolute;
+        top: -30px;
+        left: 19.5rem;
+      
+       }
+   }
+   @media (max-width: 767.98px) {
+    .forme hr{
+        height: 3px;
+        
+        border: none;
+        width: 8%;
+      
+        top: -30px;
+        left: 14.5rem;
+      
+       }
+       .forme-p h2{
+        font-size: 1.3rem;
+       }
+   }
+   @media (max-width: 575.98px) { 
+    .forme hr{
+        height: 3px;
+        
+        border: none;
+        width: 8%;
+      
+        top: -30px;
+        left: 0rem;
+      
+       }
+       .forme-p p{
+        font-size: .6rem;
+        margin-bottom: 4rem;
+       }
+   }
+   footer{
+    background-color: #07061d;
+    color: #fff;
+    text-align: center;
+    padding-top: 5rem;
+    height: 80vh;
+   
+   }
+   .ff{
+    position: relative;
+   }
+   .ff .foot{
+    height: 3px;
+    background-color: red;
+    border: none;
+    width: 5%;
+    position: absolute;
+    top: -38px;
+    left: 40rem;
+    transform: rotate(90deg);
+   }
+   footer h2{
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+    margin-bottom: 15px;
+   }
+   footer p{
+    margin-bottom: 30px;
+   }
+   footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+   }
+   footer ul li{
+    margin-right: 15px;
+   }
+  
+   footer li i{
+    font-size: 1.2rem;
+   }
+   @media (max-width: 767.98px) {
+    .ff .foot{
+        height: 3px;
+        background-color: red;
+        border: none;
+        width: 5%;
+        position: absolute;
+        top: -38px;
+        left: 10rem;
+        transform: rotate(90deg);
+       }
+   }
+   @media (max-width: 575.98px) { 
+    footer h2{
+        font-family: 'Pacifico', cursive;
+        font-size: 2rem;
+        margin-bottom: 15px;
+       }
+       footer ul li{
+        margin-right: 5px;
+       }
+       footer li i{
+        font-size: 1rem;
+       }
+
+   }
+
+
+
+
+ 
+
+
